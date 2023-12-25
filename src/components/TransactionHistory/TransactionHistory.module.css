@@ -1,0 +1,35 @@
+.transactions {
+    width: 600px;
+    box-shadow: 0 0 10px 5px #c8c8c8;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .tHed {
+    background-color: #3ca42c;
+    color: #ffffff;
+  }
+  
+  .thTitle {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .transactionsElitem:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .transactionsElitem:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .tdType,
+  .tdAmount,
+  .tdCurrency {
+    padding: 10px 30px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }

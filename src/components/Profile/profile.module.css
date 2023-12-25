@@ -1,0 +1,52 @@
+.profile {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 5px #c8c8c8;
+    border-radius: 8px;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+  }
+  .avatar {
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    box-shadow: 0 0 1px 1px #e4e4e4;
+  }
+  .username {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+  }
+  .cardText {
+    color: #9a9a9a;
+  }
+  
+  .stats {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .CardStatsItem {
+    flex: auto;
+    width: 100px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #efebebe1;
+    border: 1px solid #f6f5f5;
+    border-radius: 8px;
+  }
+  .label {
+    color: #9a9a9a;
+  }
