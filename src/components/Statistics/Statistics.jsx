@@ -1,4 +1,5 @@
 import styles from './Statistics.module.css';
+import getRandomColor from 'helpers/RandomColor';
 
 const Statistics = ({ title, stats = [] }) => {
     const statsEl = stats.map(stat => (
@@ -17,15 +18,6 @@ const Statistics = ({ title, stats = [] }) => {
         <ul className={styles.statList}>{statsEl}</ul>
       </div>
     );
-  };
-  
-  const getRandomColor = () => {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 3; i++) {
-      color += letters[Math.floor(Math.random() * 10)];
-    }
-    return color;
   };
   
   export default Statistics;
